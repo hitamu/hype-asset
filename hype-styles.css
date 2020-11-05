@@ -232,4 +232,8 @@ video {
 	background: #FDECE6 !important;
 	padding: 12px !important;
 }
-
+.accordion-detail .bg-image{
+   width: 38% !important;
+   margin: auto;
+   margin-top: 10px;
+}
