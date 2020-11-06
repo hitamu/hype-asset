@@ -118,7 +118,7 @@ function sh_initCourseContent(hypeDocument, element, event) {
                 );
             });
             return (
-                `<ul class="sortableGroup"><div class="top-label">Top Label</div>${listItems.join('')}<div class="bottom-label">Bottom Label</div></ul>`
+                `<ul class="sortableGroup"><div class="top-label">${topLabel}</div>${listItems.join('')}<div class="bottom-label">${botLable}</div></ul>`
             );
         }
     };
