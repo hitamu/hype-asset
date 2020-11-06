@@ -109,6 +109,9 @@ function sh_initCourseContent(hypeDocument, element, event) {
             );
         },
         sortableGroup: function(params){
+            var topLabel = params[0]
+            var botLable = params[1]
+            var items = params.filter((v, i) => i > 1);
             var listItems = params.map(param => {
                 return (
                     `<li class="sortableItem"><span>${param}</span><i class="fa fa-bars"></i></li>`
